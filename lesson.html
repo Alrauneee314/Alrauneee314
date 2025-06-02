@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <title>Document</title>
+    <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f5f7fa;
+      color: #333;
+    }
+    nav {
+      background-color: #010615;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 1rem 2rem;
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+    }
+    nav .logo {
+      color: white;
+      font-size: 1.5rem;
+      font-weight: bold;
+      text-decoration: none;
+    }
+    nav ul {
+      list-style: none;
+      display: flex;
+      margin: 0;
+      padding: 0;
+    }
+    nav ul li {
+      margin-left: 1.5rem;
+    }
+    nav ul li a {
+      color: white;
+      text-decoration: none;
+      font-weight: 500;
+    }
+    nav ul li a:hover {
+      text-decoration: underline;
+    }
+    header {
+      background-color: #1e3a8a;
+      color: white;
+      padding: 2rem;
+      text-align: center;
+    }
+    .container {
+      max-width: 960px;
+      margin: auto;
+      padding: 2rem;
+    }
+    section {
+      margin-bottom: 2.5rem;
+    }
+    h1, h2 {
+      color: #1e3a8a;
+    }
+    .button {
+      background-color: #3b82f6;
+      color: white;
+      padding: 0.75rem 1.5rem;
+      text-decoration: none;
+      border-radius: 6px;
+      display: inline-block;
+      margin-right: 1rem;
+      margin-top: 1rem;
+    }
+    .testimonial {
+      background-color: #e0f2fe;
+      padding: 1rem;
+      border-left: 4px solid #0284c7;
+      margin-bottom: 1rem;
+    }
+    footer {
+      text-align: center;
+      padding: 1rem;
+      background-color: #1e3a8a;
+      color: white;
+    }
+    @media (max-width: 600px) {
+      nav {
+        flex-direction: column;
+        align-items: flex-start;
+      }
+      nav ul {
+        flex-direction: column;
+        width: 100%;
+      }
+      nav ul li {
+        margin: 0.5rem 0;
+      }
+    }
+
+    .card-container {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 1.5rem;
+      justify-content: center;
+    }
+    .card {
+      background-color: white;
+      border: 1px solid #e2e8f0;
+      border-radius: 8px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+      padding: 1.5rem;
+      width: 260px;
+      flex: 1 1 260px;
+    }
+    .card-title {
+      color: #1e3a8a;
+      margin-bottom: 0.75rem;
+      font-size: 1.25rem;
+    }
+    .card-text {
+      color: #4a5568;
+      font-size: 0.95rem;
+      margin-bottom: 1rem;
+      line-height: 1.4;
+    }
+    .card-button {
+      display: inline-block;
+      text-decoration: none;
+      background-color: #3b82f6;
+      color: white;
+      padding: 0.5rem 1rem;
+      border-radius: 6px;
+      font-weight: 500;
+    }
+    .card-button:hover {
+      background-color: #2563eb;
+    }
+  </style>
+</head>
+<body> 
+  
+  
+  </style>
+</head>
+<body>
+  <!-- Navigation -->
+  <nav>
+    <a href="homepage.html" class="logo">Elevate XI</a>
+    <ul>
+      <li><a href="homepage.html">Homepage</a></li>
+      <li><a href="lesson.html">Quizz</a></li>
+      <li><a href="contacts.html">Kontak</a></li>
+    </ul>
+  </nav>
+  <div class="card-container">
+    <!-- Kimia -->
+    <div class="card">
+      <h3 class="card-title">Kimia</h3>
+      <p class="card-text">
+        Dalami konsep dasar hingga lanjutan Kimia kelas 11: struktur atom, ikatan kimia, stoikiometri, kesetimbangan reaksi, serta persiapan soal UTBK.
+        Belajar interaktif dengan eksperimen virtual dan penjelasan yang mudah dipahami.
+      </p>
+      <a href="soallimia.html" class="card-button">Pelajari Lebih</a>
+    </div>
+
+    <!-- IPA -->
+    <div class="card">
+      <h3 class="card-title">IPA</h3>
+      <p class="card-text">
+        Gabungan pelajaran Fisika, Kimia, dan Biologi yang disajikan secara terpadu.  
+        Cocok untuk memperkuat pemahaman lintas sains dan mempersiapkan diri menghadapi UTBK dengan pendekatan analitis.
+      </p>
+      <a href="soalipa.html" class="card-button">Pelajari Lebih</a>
+    </div>
+
+    <!-- Matematika -->
+    <div class="card">
+      <h3 class="card-title">Matematika</h3>
+      <p class="card-text">
+        Kuasai materi seperti fungsi, limit, turunan, integral, dan barisan.  
+        Metode belajar fokus pada logika, latihan soal HOTS, dan persiapan menghadapi ujian maupun UTBK.
+      </p>
+      <a href="soalmtk.html" class="card-button">Pelajari Lebih</a>
+    </div>
+
+    <!-- IPS -->
+    <div class="card">
+      <h3 class="card-title">IPS</h3>
+      <p class="card-text">
+        Pelajari Ekonomi, Geografi, Sosiologi, dan Sejarah secara mendalam.  
+        Didesain untuk meningkatkan kemampuan berpikir kritis dan analitis dalam menghadapi soal-soal IPS dan UTBK.
+      </p>
+      <a href="soalips.html" class="card-button">Pelajari Lebih</a>
+    </div>
+  </div>
+</body>
+</html>
+
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+

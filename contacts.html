@@ -1,0 +1,142 @@
+<body class>
+        <nav>
+    <a href="homepage.html" class="logo">Elevate XI</a>
+    <ul>
+      <li><a href="homepage.html">Homepage</a></li>
+      <li><a href="lesson.html">Quizz</a></li>
+      <li><a href="contacts.html">Kontak</a></li>
+    </ul>
+  </nav>
+</body>
+<style>
+body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f5f7fa;
+      color: #333;
+    }
+    nav {
+      background-color: #010615;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 1rem 2rem;
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+    }
+    nav .logo {
+      color: white;
+      font-size: 1.5rem;
+      font-weight: bold;
+      text-decoration: none;
+    }
+    nav ul {
+      list-style: none;
+      display: flex;
+      margin: 0;
+      padding: 0;
+    }
+    nav ul li {
+      margin-left: 1.5rem;
+    }
+    nav ul li a {
+      color: white;
+      text-decoration: none;
+      font-weight: 500;
+    }
+    nav ul li a:hover {
+      text-decoration: underline;
+    }
+    header {
+      background-color: #1e3a8a;
+      color: white;
+      padding: 2rem;
+      text-align: center;
+    }
+    .container {
+      max-width: 960px;
+      margin: auto;
+      padding: 2rem;
+    }
+    section {
+      margin-bottom: 2.5rem;
+    }
+    h1, h2 {
+      color: #1e3a8a;
+    }
+    .button {
+      background-color: #3b82f6;
+      color: white;
+      padding: 0.75rem 1.5rem;
+      text-decoration: none;
+      border-radius: 6px;
+      display: inline-block;
+      margin-right: 1rem;
+      margin-top: 1rem;
+    }
+    .testimonial {
+      background-color: #e0f2fe;
+      padding: 1rem;
+      border-left: 4px solid #0284c7;
+      margin-bottom: 1rem;
+    }
+    footer {
+      text-align: center;
+      padding: 1rem;
+      background-color: #1e3a8a;
+      color: white;
+    }
+    @media (max-width: 600px) {
+      nav {
+        flex-direction: column;
+        align-items: flex-start;
+      }
+      nav ul {
+        flex-direction: column;
+        width: 100%;
+      }
+      nav ul li {
+        margin: 0.5rem 0;
+      }
+    }
+</style>
+
+
+
+
+<!-- Contact Section -->
+<section id="contact" style="background-color: #f3f4f6; padding: 2rem 1rem;">
+  <div style="max-width: 800px; margin: auto;">
+    <h2 style="text-align: center; color: #1e3a8a;">Hubungi Kami</h2>
+    <p style="text-align: center; color: #4b5563; margin-bottom: 2rem;">
+      Punya pertanyaan seputar program Elevate XI? Kami siap membantu!
+    </p>
+
+    <div style="display: flex; flex-wrap: wrap; gap: 2rem; justify-content: space-between;">
+      <!-- Contact Info -->
+      <div style="flex: 1 1 300px;">
+        <h3 style="color: #1e3a8a;">Informasi Kontak</h3>
+        <p>Email: <a href="mailto:zafkiel1412@gmail.com">zafkiel1412@gmail.com</a></p>
+        <p>WhatsApp: <a href="https://wa.me/6285943510324" target="_blank">+62 859-4351-0324</a></p>
+        <p>Instagram: <a href="https://www.instagram.com/diaoopaa/" target="_blank">@diaoopaa</a></p>
+      </div>
+
+      <!-- Contact Form -->
+      <form style="flex: 1 1 300px;" action="#" method="POST">
+        <label for="name">Nama</label><br>
+        <input type="text" id="name" name="name" required style="width: 100%; padding: 0.5rem; margin-bottom: 1rem;">
+
+        <label for="email">Email</label><br>
+        <input type="email" id="email" name="email" required style="width: 100%; padding: 0.5rem; margin-bottom: 1rem;">
+
+        <label for="message">Pesan</label><br>
+        <textarea id="message" name="message" rows="4" required style="width: 100%; padding: 0.5rem; margin-bottom: 1rem;"></textarea>
+
+        <button type="submit" style="background-color: #3b82f6; color: white; padding: 0.5rem 1rem; border: none; border-radius: 6px;">Kirim Pesan</button>
+      </form>
+    </div>
+  </div>
+</section>
+

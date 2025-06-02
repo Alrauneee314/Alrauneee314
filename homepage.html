@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Elevate XI - Les Kelas 11</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f5f7fa;
+      color: #333;
+    }
+    nav {
+      background-color: #010615;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 1rem 2rem;
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+    }
+    nav .logo {
+      color: white;
+      font-size: 1.5rem;
+      font-weight: bold;
+      text-decoration: none;
+    }
+    nav ul {
+      list-style: none;
+      display: flex;
+      margin: 0;
+      padding: 0;
+    }
+    nav ul li {
+      margin-left: 1.5rem;
+    }
+    nav ul li a {
+      color: white;
+      text-decoration: none;
+      font-weight: 500;
+    }
+    nav ul li a:hover {
+      text-decoration: underline;
+    }
+    header {
+      background-color: #1e3a8a;
+      color: white;
+      padding: 2rem;
+      text-align: center;
+    }
+    .container {
+      max-width: 960px;
+      margin: auto;
+      padding: 2rem;
+    }
+    section {
+      margin-bottom: 2.5rem;
+    }
+    h1, h2 {
+      color: #1e3a8a;
+    }
+    .button {
+      background-color: #3b82f6;
+      color: white;
+      padding: 0.75rem 1.5rem;
+      text-decoration: none;
+      border-radius: 6px;
+      display: inline-block;
+      margin-right: 1rem;
+      margin-top: 1rem;
+    }
+    .testimonial {
+      background-color: #e0f2fe;
+      padding: 1rem;
+      border-left: 4px solid #0284c7;
+      margin-bottom: 1rem;
+    }
+    footer {
+      text-align: center;
+      padding: 1rem;
+      background-color: #1e3a8a;
+      color: white;
+    }
+    @media (max-width: 600px) {
+      nav {
+        flex-direction: column;
+        align-items: flex-start;
+      }
+      nav ul {
+        flex-direction: column;
+        width: 100%;
+      }
+      nav ul li {
+        margin: 0.5rem 0;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Navigation -->
+  <nav>
+    <a href="#" class="logo">Elevate XI</a>
+    <ul>
+      <li><a href="homepage.html">Homepage</a></li>
+      <li><a href="lesson.html">Quizz</a></li>
+      <li><a href="contacts.html">Kontak</a></li>
+    </ul>
+  </nav>
+
+  <!-- Hero Header -->
+  <header>
+    <h1>Elevate XI</h1>
+    <p>Naikkan Level Belajarmu. Raih Potensi Maksimal.</p>
+  </header>
+
+  <div class="container">
+    <section id="kenapa">
+      <h2>Kenapa Elevate XI?</h2>
+      <p>Elevate XI hadir khusus untuk siswa kelas 11 yang ingin unggul di sekolah dan siap menghadapi tantangan kelas 12 dan UTBK. Kami menggabungkan pengajaran berkualitas, mentor berpengalaman, dan pendekatan belajar yang relevan.</p>
+    </section>
+
+    <section id="penawaran">
+      <h2>Apa yang Kami Tawarkan?</h2>
+      <ul>
+        <li><strong>Les Privat & Grup:</strong> Pilih gaya belajar yang paling cocok.</li>
+        <li><strong>Mentor Profesional:</strong> Guru berpengalaman dan alumni PTN favorit.</li>
+        <li><strong>Materi Terfokus:</strong> Fokus pada pelajaran inti dan persiapan UTBK.</li>
+        <li><strong>Try Out & Evaluasi:</strong> Simulasi soal dan feedback progres rutin.</li>
+        <li><strong>Akses Online & Offline:</strong> Belajar fleksibel dari mana saja.</li>
+      </ul>
+    </section>
+
+    <section id="testimoni">
+      <h2>Testimoni Siswa</h2>
+      <div class="testimonial">
+        <p><em>"Elevate XI bikin aku makin paham konsep-konsep sulit. Gurunya sabar dan seru!"</em><br/>— Nabila, SMA Negeri 3 Bandung</p>
+      </div>
+      <div class="testimonial">
+        <p><em>"Dari nilai pas-pasan jadi juara kelas. Terima kasih, Elevate XI!"</em><br/>— Dito, SMK Negeri 6 Surabaya</p>
+      </div>
+    </section>
+
+    <section id="kontak">
+      <h2>Siap Naik Level?</h2>
+      <a href="lesson.html" class="button">Quiz Time!! </a>
+      <a href="contacts.html" class="button">Hubungi Kami</a>
+    </section>
+  </div>
+
+  <footer>
+    <p>&copy; 2025 Elevate XI. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
